@@ -1,1 +1,24 @@
-font-family: 'Overpass', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Overpass', sans-serif;
+    width: 37.5rem;    
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
