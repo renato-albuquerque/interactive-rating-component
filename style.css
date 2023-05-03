@@ -63,6 +63,7 @@ p {
     color: var(--Medium-Grey);
     padding: 1rem 2rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .numbers:hover {
@@ -79,6 +80,7 @@ p {
     border-radius: 3rem;
     text-align: center;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .btnSubmit:hover {
