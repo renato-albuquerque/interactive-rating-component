@@ -97,10 +97,11 @@ function reset_5() {
 
 // FUNCTION CHANGE TEXT "THANK YOU PAGE"
 
-function changeText() {
+/* function buttonSubmit() {
+    
     paragraph.textContent = "VOZÃO CHAMPION"
 }
 
-changeText()
+buttonSubmit() */
 
 
