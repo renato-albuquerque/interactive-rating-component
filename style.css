@@ -10,9 +10,9 @@
 :root {
     font-size: 62.5%;
 
-    --White: hsl(0, 0%, 100%);
-    --Light-Grey: hsl(217, 12%, 63%);
-    --Medium-Grey: hsl(216, 12%, 54%);
+    --White: #ffffff;
+    --Light-Grey: #959eac;
+    --Medium-Grey: #7c8798;
     --Dark-Blue: hsl(213, 19%, 18%);
     --Very-Dark-Blue: hsl(216, 12%, 8%);
     --Orange: hsl(24, 88%, 51%);
@@ -30,7 +30,7 @@ body {
     background-color: var(--Dark-Blue);
     padding: 2.5rem;
     border-radius: 2rem;
-    margin-top: 35%;
+    /* margin-top: 35%; */
 }
 
 .imageMainPage {
@@ -59,7 +59,7 @@ p {
 }
 
 .numbers {
-    background-color: hsl(213, 14%, 27%);
+    background-color: #3b444e;
     color: var(--Medium-Grey);
     padding: 1rem 2rem;
     border-radius: 50%;
@@ -81,6 +81,8 @@ p {
     text-align: center;
     font-weight: 700;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 
 .btnSubmit:hover {
