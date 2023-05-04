@@ -91,6 +91,26 @@ p {
     transition: all 200ms;
 }
 
+footer {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.76); 
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    color: var(--Orange); 
+    transition: all 200ms;
+}
+
 /* Thank you page */
 
 .imageThanksPage {
@@ -119,12 +139,4 @@ p {
     text-align: center;
 }
 
-
-
-
-#option1 {
-    display: none;
-}
-
-
-
+/* Footer: The same "main page". */
