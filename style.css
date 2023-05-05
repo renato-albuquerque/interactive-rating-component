@@ -30,11 +30,7 @@ body {
     background-color: var(--Dark-Blue);
     padding: 2.5rem;
     border-radius: 2rem;
-    margin-top: 30%;
-}
-
-.child {
-    
+    margin-top: 30%; /* Strategy to center (Near the original project). */
 }
 
 .imageMainPage {
