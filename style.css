@@ -24,13 +24,24 @@ body {
     width: 37.5rem;    
     background-color: var(--Very-Dark-Blue);
     margin: 0 auto;   
+
+    /* width: 100vw;
+    height: 100vh;
+    border: 1px solid white; */
 }
 
 .container {
     background-color: var(--Dark-Blue);
     padding: 2.5rem;
     border-radius: 2rem;
-    margin-top: 30%; /* Strategy to center (Near the original project). */
+    margin-top: 30%;  /* Strategy to center (Near the original project). */
+
+    /* Way to center. */
+    /* top: 50%;   
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 37.5rem; */    
 }
 
 .imageMainPage {
@@ -72,9 +83,9 @@ p {
     font-weight: 700;
 }
 
-#option-1, #option-2, #option-3, #option-4, #option-5 {
+/* #option-1, #option-2, #option-3, #option-4, #option-5 {
     display: none;
-} 
+} */ 
 
 .btnSubmit {
     background-color: var(--Orange);
@@ -97,6 +108,10 @@ p {
 footer {
     text-align: center;
     margin-top: 3rem;
+    
+    /* position: fixed;
+    bottom: 10px;
+    left: 45vw; */
 }
 
 footer p {

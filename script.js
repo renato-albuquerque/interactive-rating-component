@@ -11,7 +11,7 @@ const value_2 = document.querySelector("#option-2")
 const value_3 = document.querySelector("#option-3")
 const value_4 = document.querySelector("#option-4")
 const value_5 = document.querySelector("#option-5")
-const options = document.querySelector('.allNumbers');
+/* const options = document.querySelector('.allNumbers'); */
 
 /* const buttonSubmit = document.querySelector(".btnSubmit") */
 const paragraph = document.querySelector(".paragraphThanksPage") 
