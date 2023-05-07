@@ -83,10 +83,6 @@ p {
     font-weight: 700;
 }
 
-/* #option-1, #option-2, #option-3, #option-4, #option-5 {
-    display: none;
-} */ 
-
 .btnSubmit {
     background-color: var(--Orange);
     color: var(--White);
@@ -95,8 +91,7 @@ p {
     text-align: center;
     font-weight: 700;
     cursor: pointer;
-    display: block;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .btnSubmit:hover {
@@ -129,7 +124,7 @@ footer a:hover {
     transition: all 200ms;
 }
 
-/* Thank you page */
+/* Thank you section */
 
 .imageThanksPage {
     display: block;
@@ -156,6 +151,10 @@ footer a:hover {
 .paragraph-2ThanksPage {
     text-align: center;
     margin-bottom: 0;
+}
+
+.hide {
+    display: none;
 }
 
 /* Footer: The same "main page". */

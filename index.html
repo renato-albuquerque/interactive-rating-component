@@ -15,26 +15,46 @@
     <title>Interactive Rating Component</title>
 </head>
 <body>
-    <div class="container">
-        <head>
-            <img class="imageMainPage" src="files/icon-star.svg" alt="Orange star.">
-        </head>
-        <main>
-            <h2 class="title">How did we do?</h2>
-            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-            <div class="allNumbers">
-                <label class="numbers" id="number-1" onclick="chooseRating_1()">1<input type="radio" name="number" value='1' id="option-1"></label>
-                <label class="numbers" id="number-2" onclick="chooseRating_2()">2<input type="radio" name="number" value='2' id="option-2"></label>
-                <label class="numbers" id="number-3" onclick="chooseRating_3()">3<input type="radio" name="number" value='3' id="option-3"></label>
-                <label class="numbers" id="number-4" onclick="chooseRating_4()">4<input type="radio" name="number" value='4' id="option-4"></label>
-                <label class="numbers" id="number-5" onclick="chooseRating_5()">5<input type="radio" name="number" value='5' id="option-5"></label>
-            </div>
-            <a href="thankyoupage.html" target="_blank" class="btnSubmit" onclick="buttonSubmit()">SUBMIT</a>
-        </main>
-    </div>
-    <footer>
-        <p class="textFooter-p">Challenge by <a href="https://www.frontendmentor.io/home" target="_blank" class="textFooter-a">Frontend Mentor</a></p> 
-        <p class="textFooter-p">Coded by <a href="https://rma-contacts.vercel.app/" target="_blank" class="textFooter-a">Renato Albuquerque</a></p>
-    </footer>
+    <section id="firstSection">
+        <div class="container">
+            <head>
+                <img class="imageMainPage" src="files/icon-star.svg" alt="Orange star.">
+            </head>
+            <main>
+                <h2 class="title">How did we do?</h2>
+                <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+                <div class="allNumbers">
+                    <label class="numbers" id="number-1" onclick="chooseRating_1()">1<input type="radio" name="number" value='1' id="option-1"></label>
+                    <label class="numbers" id="number-2" onclick="chooseRating_2()">2<input type="radio" name="number" value='2' id="option-2"></label>
+                    <label class="numbers" id="number-3" onclick="chooseRating_3()">3<input type="radio" name="number" value='3' id="option-3"></label>
+                    <label class="numbers" id="number-4" onclick="chooseRating_4()">4<input type="radio" name="number" value='4' id="option-4"></label>
+                    <label class="numbers" id="number-5" onclick="chooseRating_5()">5<input type="radio" name="number" value='5' id="option-5"></label>
+                </div>
+                <button class="btnSubmit" onclick="buttonSubmit()">SUBMIT</button>
+            </main>
+        </div>
+        <footer>
+            <p class="textFooter-p">Challenge by <a href="https://www.frontendmentor.io/home" target="_blank" class="textFooter-a">Frontend Mentor</a></p>
+            <p class="textFooter-p">Coded by <a href="https://rma-contacts.vercel.app/" target="_blank" class="textFooter-a">Renato Albuquerque</a></p>
+        </footer>
+    </section>
+
+    <section class="hide" id="secondSection">
+        <div class="container">
+            <head>
+                <img class="imageThanksPage" src="files/illustration-thank-you.svg" alt="Illustration thank you image.">
+                <p class="paragraphThanksPage">You selected 4 out of 5</p>
+            </head>
+            <main>
+                <h2 class="titleThanksPage">Thank you!</h2>
+                <p class="paragraph-2ThanksPage">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+            </main>
+        </div>
+        <footer>
+            <p class="textFooter-p">Challenge by <a href="https://www.frontendmentor.io/home" target="_blank" class="textFooter-a">Frontend Mentor</a></p>
+            <p class="textFooter-p">Coded by <a href="https://rma-contacts.vercel.app/" target="_blank" class="textFooter-a">Renato Albuquerque</a></p>
+        </footer>
+    </section>
+    
 </body>
 </html>
