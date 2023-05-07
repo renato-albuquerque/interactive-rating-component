@@ -10,7 +10,7 @@ const ratingPage = document.querySelector(".firstSection")
 
 // Other variables
 const thanksPage = document.querySelector(".secondSection")
-const paragraph = document.querySelector(".paragraphThanksPage") 
+const paragraphThanksPage = document.querySelector(".paragraphThanksPage") 
 
 // FUNCTIONS CHOOSE RATING
 
@@ -101,9 +101,16 @@ function reset_5() {
     rating_5.style.fontWeight = "400"
 }
 
-// FUNCTION RETURN PAGE
+// FUNCTION TO RETURN PAGE
 
 function returnPage() {
+    ratingPage.classList.toggle('hide');
+    thanksPage.classList.toggle('hide');
+}
+
+// FUNCTION TO PRESS BUTTON SUBMIT AND GO TO THANKS PAGE
+
+function buttonSubmit() {
     ratingPage.classList.toggle('hide');
     thanksPage.classList.toggle('hide');
 }
@@ -112,10 +119,7 @@ function returnPage() {
 
 ratingPage.addEventListener("click", () => {
     const optionSelected = document.querySelector("input[type=radio]:checked")
-    paragraph.textContent = `You selected ${optionSelected.value} out of 5.`
-
-    ratingPage.classList.toggle('hide');
-    thanksPage.classList.toggle('hide');
+    paragraphThanksPage.textContent = `You selected ${optionSelected.value} out of 5.`
 })
     
 
