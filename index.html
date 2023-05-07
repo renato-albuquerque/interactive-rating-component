@@ -15,7 +15,7 @@
     <title>Interactive Rating Component</title>
 </head>
 <body>
-    <section id="firstSection">
+    <section class="firstSection" id="firstPage">
         <div class="container">
             <head>
                 <img class="imageMainPage" src="files/icon-star.svg" alt="Orange star.">
@@ -30,7 +30,7 @@
                     <label class="numbers" id="number-4" onclick="chooseRating_4()">4<input type="radio" name="number" value='4' id="option-4" class="input"></label>
                     <label class="numbers" id="number-5" onclick="chooseRating_5()">5<input type="radio" name="number" value='5' id="option-5" class="input"></label>
                 </div>
-                <button class="btnSubmit" onclick="buttonSubmit()">SUBMIT</button>
+                <div class="btnSubmit" onclick="buttonSubmit()">SUBMIT</div>
             </main>
         </div>
         <footer>
@@ -39,7 +39,7 @@
         </footer>
     </section>
 
-    <section class="hide" id="secondSection">
+    <section class="secondSection hide">      
         <div class="container">
             <head>
                 <img class="imageThanksPage" src="files/illustration-thank-you.svg" alt="Illustration thank you image.">
@@ -54,6 +54,7 @@
             <p class="textFooter-p">Challenge by <a href="https://www.frontendmentor.io/home" target="_blank" class="textFooter-a">Frontend Mentor</a></p>
             <p class="textFooter-p">Coded by <a href="https://rma-contacts.vercel.app/" target="_blank" class="textFooter-a">Renato Albuquerque</a></p>
         </footer>
+        <div class="return" onclick="returnPage()">-- Return --</div>
     </section>
     
 </body>

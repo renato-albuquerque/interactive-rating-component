@@ -6,14 +6,10 @@ const rating_4 = document.querySelector("#number-4")
 const rating_5 = document.querySelector("#number-5")
 
 // To get the values
-const value_1 = document.querySelector("#option-1")
-const value_2 = document.querySelector("#option-2")
-const value_3 = document.querySelector("#option-3")
-const value_4 = document.querySelector("#option-4")
-const value_5 = document.querySelector("#option-5")
-/* const options = document.querySelector('.allNumbers'); */
+const ratingPage = document.querySelector(".firstSection")
 
-/* const buttonSubmit = document.querySelector(".btnSubmit") */
+// Other variables
+const thanksPage = document.querySelector(".secondSection")
 const paragraph = document.querySelector(".paragraphThanksPage") 
 
 // FUNCTIONS CHOOSE RATING
@@ -105,11 +101,25 @@ function reset_5() {
     rating_5.style.fontWeight = "400"
 }
 
-// FUNCTION CHANGE TEXT "THANK YOU PAGE"
+// FUNCTION RETURN PAGE
 
-function buttonSubmit() {
-   
-    }
+function returnPage() {
+    ratingPage.classList.toggle('hide');
+    thanksPage.classList.toggle('hide');
+}
+
+// EVENTS
+
+ratingPage.addEventListener("click", () => {
+    const optionSelected = document.querySelector("input[type=radio]:checked")
+    paragraph.textContent = `You selected ${optionSelected.value} out of 5.`
+
+    ratingPage.classList.toggle('hide');
+    thanksPage.classList.toggle('hide');
+})
+    
+
+
  
-/* buttonSubmit() */
+
 
