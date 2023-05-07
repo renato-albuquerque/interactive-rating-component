@@ -83,6 +83,12 @@ p {
     font-weight: 700;
 }
 
+.input {    /* Strategy to hide the "input type radio". */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+ }
+
 .btnSubmit {
     background-color: var(--Orange);
     color: var(--White);
