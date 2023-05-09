@@ -174,13 +174,15 @@ footer a:hover {
 
 /* Footer: The same "main page". */
 
-@media (min-width: 1024px) {
+/* Desktop version (Responsiveness). */
+
+@media (min-width: 1440px) {
     body {
         width: 76.8rem;
     }
 
     .imageMainPage {
-        width: 6rem;
+        width: 5rem;
     }
 
     .title {
